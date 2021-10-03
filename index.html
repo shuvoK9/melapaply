@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=WindSong&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="best-friend.png" type="image/x-icon">
+    <title>My Bestfriend</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: white;
+
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            display: inline-block;
+        }
+
+        .heart {
+            margin-top: 0px;
+            margin-left: 100px;
+            position: relative;
+            height: 160px;
+            width: 100px;
+            background: red;
+            border-radius: 200px 200px 0 0;
+            transform: rotate(45deg);
+            box-shadow: -10px 10px 90px rgb(26, 2, 2);
+        }
+
+        .divOne {
+            margin-left: 0px;
+            margin-top: 100px;
+            float: left;
+        }
+
+        .heart::before {
+            content: "";
+            position: absolute;
+            background: red;
+            height: 160px;
+            width: 100px;
+            transform: rotate(-90deg);
+            border-radius: 200px 200px 0 0;
+            left: -30px;
+            top: 30px;
+
+        }
+        button:hover{
+           background-color:#FFCE54;
+        }
+
+        .para1 {
+            font-size: 250px;
+            letter-spacing: 20px;
+            font-family: 'Caveat', cursive;
+            color: black;
+
+        }
+
+        .container {
+            display: inline-block;
+        }
+
+        .div2 {
+            float: right;
+            margin-left: 100px;
+            margin-top: 0px;
+        }
+
+        .for-me {
+            margin-left: 120px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="blue.png" alt="">
+    <div class="container">
+        <div class="heart divOne"></div>
+        <div class="div2">
+            <p class="para1">
+                <span style="color: #AC92EB; text-shadow:  -10px 10px 90px rgb(0, 255, 242);">P</span><span
+                    style="color: #01beaff5; text-shadow:  -10px 10px 90px grey;">a</span><span
+                    style="color:#A0D568;text-shadow:-10px 10px 90px black ;">P</span><span
+                    style="color:#FFCE54 ;">r</span><span
+                    style="color: #ED5564;text-shadow:-10px 10px 90px rgb(0, 255, 242)">y</span>
+            </p>
+        </div>
+    </div>
+    <div class="for-me">
+        <h2>Aml Mdltt</h2>
+        <p>There is nothing in life so precious than a loving and caring friend. God was kind enough to me that he gave
+            me a friend
+            like you!</p>
+    </div>
+
+
+
+    <button style="background-color: #b6b42d;padding: 10px; border: none;border-radius: 5px;margin-left: 150px;margin-top: 50px;cursor: pointer;" onclick="love()">How Much I Love You</button>
+
+
+<h2 style="margin-left:200px ; margin-top: 59px;">I love you so much my smile</h2>
+    <script>
+        function love() {
+            alert('Shuvo loves you so much');
+
+        }
+    </script>
+</body>
+
+</html>
